@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/validator_form/style.css">
+    <script src="https://kit.fontawesome.com/b0d88aeea8.js" crossorigin="anonymous"></script>
+    <title>Form</title>
+</head>
+<body>
+    <div class="container">
+        <div class="header">
+            <h2>Create Account</h2>
+        </div>
+        <form action="" class="form" id="form">
+            <div class="form-control">
+                <label>Username</label>
+                <input type="text" id="username" placeholder="your name">
+                <i class="error_icon fas fa-exclamation-circle"></i>
+                <i class="success_icon fas fa-check-circle"></i>
+                <span class="message"></span>
+            </div>
+            <div class="form-control">
+                <label>Email</label>
+                <input type="email" id="email" placeholder="abc@gmail.com">
+                <i class="error_icon fas fa-exclamation-circle"></i>
+                <i class="success_icon fas fa-check-circle"></i>
+                <span class="message"></span>
+            </div>
+            <div class="form-control">
+                <label>Password</label>
+                <input type="password" id="password">
+                <i class="error_icon fas fa-exclamation-circle"></i>
+                <i class="success_icon fas fa-check-circle"></i>
+                <span class="message"></span>
+            </div>
+            <div class="form-control">
+                <label>Password confirmation</label>
+                <input type="password" id="password_check">
+                <i class="error_icon fas fa-exclamation-circle"></i>
+                <i class="success_icon fas fa-check-circle"></i>
+                <span class="message"></span>
+            </div>
+            <button>Submit</button>
+        </form>
+    </div>
+    <script src="/validator_form/validate.js"></script>
+
+</body>
+</html>
